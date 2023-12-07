@@ -16,9 +16,6 @@
         <module>fzy-club-subject-infra</module>
         <module>fzy-club-subject-common</module>
         <module>fzy-club-subject-starter</module>
-        <module>fzy-club-subject-application/fzy-club-subject-application-controller</module>
-        <module>fzy-club-subject-application</module>
-        <module>fzy-club-subject-api</module>
 
     </modules>
     <dependencies>

@@ -27,6 +27,8 @@ spring:
         config:
           enabled: true
 mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   typeAliasesPackage: com.jingdian.subject.infra.basic.entity
   mapperLocations: classpath:mapper/*.xml
 logging:

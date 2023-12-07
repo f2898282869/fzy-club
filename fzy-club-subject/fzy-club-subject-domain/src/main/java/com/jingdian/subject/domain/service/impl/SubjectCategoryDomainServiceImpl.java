@@ -37,7 +37,7 @@ public class SubjectCategoryDomainServiceImpl implements SubjectCategoryDomainSe
         }
 //        相当于把BO对象转变为subjectCategory对象
         SubjectCategory subjectCategory = SubjectCategoryConverter.INSTANCE.convertBoToCategory(subjectCategorybo);
-
+        subjectCategory.setIsDeleted(DeletedFlagEnum.UN_DELETED.getCode());
         subjectCategoryService.insert(subjectCategory);
     }
 

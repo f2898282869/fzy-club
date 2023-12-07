@@ -10,11 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>fzy-club-subject-application</artifactId>
-
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+    <packaging>pom</packaging>
     <modules>
         <module>fzy-club-subject-application-controller</module>
         <module>fzy-club-subject-application-job</module>
